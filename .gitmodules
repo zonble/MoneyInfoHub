@@ -1,0 +1,6 @@
+[submodule "ExternalLibraries/SBWebImage"]
+	path = ExternalLibraries/SBWebImage
+	url = https://github.com/rs/SDWebImage.git
+[submodule "ExternalLibraries/FLAnimatedImage"]
+	path = ExternalLibraries/FLAnimatedImage
+	url = https://github.com/Flipboard/FLAnimatedImage.git

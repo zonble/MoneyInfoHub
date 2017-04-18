@@ -1,0 +1,29 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E28E36D423EC87798E52E2BF482E9F7A1E6479D6" : 9223372036854775807,
+    "CADC4D1B031AED4FEFB66A1DCF54AE5FF592E1F0" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E73CCD9B-C5D9-4F5C-B135-A96AAEDC4ED8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E28E36D423EC87798E52E2BF482E9F7A1E6479D6" : "MoneyInfoHiub\/ExternalLibraries\/SBWebImage\/",
+    "CADC4D1B031AED4FEFB66A1DCF54AE5FF592E1F0" : "MoneyInfoHiub\/ExternalLibraries\/FLAnimatedImage\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MoneyInfoHiub",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MoneyInfoHiub.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Flipboard\/FLAnimatedImage.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CADC4D1B031AED4FEFB66A1DCF54AE5FF592E1F0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rs\/SDWebImage.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E28E36D423EC87798E52E2BF482E9F7A1E6479D6"
+    }
+  ]
+}
