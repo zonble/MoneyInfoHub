@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D45764721EA64DF200D900B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45764711EA64DF200D900B6 /* AppDelegate.swift */; };
+		D45764741EA64DF200D900B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45764731EA64DF200D900B6 /* ViewController.swift */; };
+		D45764771EA64DF200D900B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D45764751EA64DF200D900B6 /* Main.storyboard */; };
+		D45764791EA64DF200D900B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D45764781EA64DF200D900B6 /* Assets.xcassets */; };
+		D457647C1EA64DF200D900B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D457647A1EA64DF200D900B6 /* LaunchScreen.storyboard */; };
+		D45764871EA64DF200D900B6 /* MoneyInfoHiubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45764861EA64DF200D900B6 /* MoneyInfoHiubTests.swift */; };
+		D45764921EA64DF200D900B6 /* MoneyInfoHiubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45764911EA64DF200D900B6 /* MoneyInfoHiubUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D45764831EA64DF200D900B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D45764661EA64DF100D900B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D457646D1EA64DF100D900B6;
+			remoteInfo = MoneyInfoHiub;
+		};
+		D457648E1EA64DF200D900B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D45764661EA64DF100D900B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D457646D1EA64DF100D900B6;
+			remoteInfo = MoneyInfoHiub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D457646E1EA64DF100D900B6 /* MoneyInfoHiub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyInfoHiub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45764711EA64DF200D900B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D45764731EA64DF200D900B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D45764761EA64DF200D900B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D45764781EA64DF200D900B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D457647B1EA64DF200D900B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D457647D1EA64DF200D900B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D45764821EA64DF200D900B6 /* MoneyInfoHiubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyInfoHiubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45764861EA64DF200D900B6 /* MoneyInfoHiubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyInfoHiubTests.swift; sourceTree = "<group>"; };
+		D45764881EA64DF200D900B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D457648D1EA64DF200D900B6 /* MoneyInfoHiubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyInfoHiubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45764911EA64DF200D900B6 /* MoneyInfoHiubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyInfoHiubUITests.swift; sourceTree = "<group>"; };
+		D45764931EA64DF200D900B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D457646B1EA64DF100D900B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D457647F1EA64DF200D900B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D457648A1EA64DF200D900B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D45764651EA64DF100D900B6 = {
+			isa = PBXGroup;
+			children = (
+				D45764701EA64DF200D900B6 /* MoneyInfoHiub */,
+				D45764851EA64DF200D900B6 /* MoneyInfoHiubTests */,
+				D45764901EA64DF200D900B6 /* MoneyInfoHiubUITests */,
+				D457646F1EA64DF100D900B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D457646F1EA64DF100D900B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D457646E1EA64DF100D900B6 /* MoneyInfoHiub.app */,
+				D45764821EA64DF200D900B6 /* MoneyInfoHiubTests.xctest */,
+				D457648D1EA64DF200D900B6 /* MoneyInfoHiubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D45764701EA64DF200D900B6 /* MoneyInfoHiub */ = {
+			isa = PBXGroup;
+			children = (
+				D45764711EA64DF200D900B6 /* AppDelegate.swift */,
+				D45764731EA64DF200D900B6 /* ViewController.swift */,
+				D45764751EA64DF200D900B6 /* Main.storyboard */,
+				D45764781EA64DF200D900B6 /* Assets.xcassets */,
+				D457647A1EA64DF200D900B6 /* LaunchScreen.storyboard */,
+				D457647D1EA64DF200D900B6 /* Info.plist */,
+			);
+			path = MoneyInfoHiub;
+			sourceTree = "<group>";
+		};
+		D45764851EA64DF200D900B6 /* MoneyInfoHiubTests */ = {
+			isa = PBXGroup;
+			children = (
+				D45764861EA64DF200D900B6 /* MoneyInfoHiubTests.swift */,
+				D45764881EA64DF200D900B6 /* Info.plist */,
+			);
+			path = MoneyInfoHiubTests;
+			sourceTree = "<group>";
+		};
+		D45764901EA64DF200D900B6 /* MoneyInfoHiubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D45764911EA64DF200D900B6 /* MoneyInfoHiubUITests.swift */,
+				D45764931EA64DF200D900B6 /* Info.plist */,
+			);
+			path = MoneyInfoHiubUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D457646D1EA64DF100D900B6 /* MoneyInfoHiub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D45764961EA64DF200D900B6 /* Build configuration list for PBXNativeTarget "MoneyInfoHiub" */;
+			buildPhases = (
+				D457646A1EA64DF100D900B6 /* Sources */,
+				D457646B1EA64DF100D900B6 /* Frameworks */,
+				D457646C1EA64DF100D900B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoneyInfoHiub;
+			productName = MoneyInfoHiub;
+			productReference = D457646E1EA64DF100D900B6 /* MoneyInfoHiub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D45764811EA64DF200D900B6 /* MoneyInfoHiubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D45764991EA64DF200D900B6 /* Build configuration list for PBXNativeTarget "MoneyInfoHiubTests" */;
+			buildPhases = (
+				D457647E1EA64DF200D900B6 /* Sources */,
+				D457647F1EA64DF200D900B6 /* Frameworks */,
+				D45764801EA64DF200D900B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D45764841EA64DF200D900B6 /* PBXTargetDependency */,
+			);
+			name = MoneyInfoHiubTests;
+			productName = MoneyInfoHiubTests;
+			productReference = D45764821EA64DF200D900B6 /* MoneyInfoHiubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D457648C1EA64DF200D900B6 /* MoneyInfoHiubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D457649C1EA64DF200D900B6 /* Build configuration list for PBXNativeTarget "MoneyInfoHiubUITests" */;
+			buildPhases = (
+				D45764891EA64DF200D900B6 /* Sources */,
+				D457648A1EA64DF200D900B6 /* Frameworks */,
+				D457648B1EA64DF200D900B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D457648F1EA64DF200D900B6 /* PBXTargetDependency */,
+			);
+			name = MoneyInfoHiubUITests;
+			productName = MoneyInfoHiubUITests;
+			productReference = D457648D1EA64DF200D900B6 /* MoneyInfoHiubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D45764661EA64DF100D900B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "KKBOX Taiwan Co., Ltd";
+				TargetAttributes = {
+					D457646D1EA64DF100D900B6 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = X29ZB2LBKB;
+						ProvisioningStyle = Automatic;
+					};
+					D45764811EA64DF200D900B6 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = X29ZB2LBKB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D457646D1EA64DF100D900B6;
+					};
+					D457648C1EA64DF200D900B6 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = X29ZB2LBKB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D457646D1EA64DF100D900B6;
+					};
+				};
+			};
+			buildConfigurationList = D45764691EA64DF100D900B6 /* Build configuration list for PBXProject "MoneyInfoHiub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D45764651EA64DF100D900B6;
+			productRefGroup = D457646F1EA64DF100D900B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D457646D1EA64DF100D900B6 /* MoneyInfoHiub */,
+				D45764811EA64DF200D900B6 /* MoneyInfoHiubTests */,
+				D457648C1EA64DF200D900B6 /* MoneyInfoHiubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D457646C1EA64DF100D900B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D457647C1EA64DF200D900B6 /* LaunchScreen.storyboard in Resources */,
+				D45764791EA64DF200D900B6 /* Assets.xcassets in Resources */,
+				D45764771EA64DF200D900B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45764801EA64DF200D900B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D457648B1EA64DF200D900B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D457646A1EA64DF100D900B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45764741EA64DF200D900B6 /* ViewController.swift in Sources */,
+				D45764721EA64DF200D900B6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D457647E1EA64DF200D900B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45764871EA64DF200D900B6 /* MoneyInfoHiubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45764891EA64DF200D900B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45764921EA64DF200D900B6 /* MoneyInfoHiubUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D45764841EA64DF200D900B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D457646D1EA64DF100D900B6 /* MoneyInfoHiub */;
+			targetProxy = D45764831EA64DF200D900B6 /* PBXContainerItemProxy */;
+		};
+		D457648F1EA64DF200D900B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D457646D1EA64DF100D900B6 /* MoneyInfoHiub */;
+			targetProxy = D457648E1EA64DF200D900B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D45764751EA64DF200D900B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D45764761EA64DF200D900B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D457647A1EA64DF200D900B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D457647B1EA64DF200D900B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D45764941EA64DF200D900B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D45764951EA64DF200D900B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D45764971EA64DF200D900B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X29ZB2LBKB;
+				INFOPLIST_FILE = MoneyInfoHiub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kkbox.MoneyInfoHiub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D45764981EA64DF200D900B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X29ZB2LBKB;
+				INFOPLIST_FILE = MoneyInfoHiub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kkbox.MoneyInfoHiub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D457649A1EA64DF200D900B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X29ZB2LBKB;
+				INFOPLIST_FILE = MoneyInfoHiubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kkbox.MoneyInfoHiubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoneyInfoHiub.app/MoneyInfoHiub";
+			};
+			name = Debug;
+		};
+		D457649B1EA64DF200D900B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X29ZB2LBKB;
+				INFOPLIST_FILE = MoneyInfoHiubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kkbox.MoneyInfoHiubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoneyInfoHiub.app/MoneyInfoHiub";
+			};
+			name = Release;
+		};
+		D457649D1EA64DF200D900B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = X29ZB2LBKB;
+				INFOPLIST_FILE = MoneyInfoHiubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kkbox.MoneyInfoHiubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MoneyInfoHiub;
+			};
+			name = Debug;
+		};
+		D457649E1EA64DF200D900B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = X29ZB2LBKB;
+				INFOPLIST_FILE = MoneyInfoHiubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kkbox.MoneyInfoHiubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MoneyInfoHiub;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D45764691EA64DF100D900B6 /* Build configuration list for PBXProject "MoneyInfoHiub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45764941EA64DF200D900B6 /* Debug */,
+				D45764951EA64DF200D900B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D45764961EA64DF200D900B6 /* Build configuration list for PBXNativeTarget "MoneyInfoHiub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45764971EA64DF200D900B6 /* Debug */,
+				D45764981EA64DF200D900B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D45764991EA64DF200D900B6 /* Build configuration list for PBXNativeTarget "MoneyInfoHiubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D457649A1EA64DF200D900B6 /* Debug */,
+				D457649B1EA64DF200D900B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D457649C1EA64DF200D900B6 /* Build configuration list for PBXNativeTarget "MoneyInfoHiubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D457649D1EA64DF200D900B6 /* Debug */,
+				D457649E1EA64DF200D900B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D45764661EA64DF100D900B6 /* Project object */;
+}
