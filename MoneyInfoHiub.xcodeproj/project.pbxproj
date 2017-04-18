@@ -678,6 +678,7 @@
 				D45764981EA64DF200D900B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D45764991EA64DF200D900B6 /* Build configuration list for PBXNativeTarget "MoneyInfoHiubTests" */ = {
 			isa = XCConfigurationList;
@@ -686,6 +687,7 @@
 				D457649B1EA64DF200D900B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D457649C1EA64DF200D900B6 /* Build configuration list for PBXNativeTarget "MoneyInfoHiubUITests" */ = {
 			isa = XCConfigurationList;
@@ -694,6 +696,7 @@
 				D457649E1EA64DF200D900B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,6 +9,7 @@ class MIHMainTableViewController: UITableViewController, MIHAPIManagerDelegate {
 		self.tableView.separatorStyle = .none
 		self.title = "Money Info Hub"
 		self.tableView.register(MIHCardTableViewCell.self, forCellReuseIdentifier: "reuseIdentifier")
+		self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "Back", style: .plain, target: nil, action: nil)
 		MIHAPIManager.shared.delegate = self
 		MIHAPIManager.shared.update()
 	}
@@ -47,7 +48,7 @@ class MIHMainTableViewController: UITableViewController, MIHAPIManagerDelegate {
 	}
 
 	override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-		return tableView.bounds.width + 50
+		return tableView.bounds.width + 80
 	}
 
 	// MARK: - MIHAPIManagerDelegate

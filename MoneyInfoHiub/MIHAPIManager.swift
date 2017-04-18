@@ -10,6 +10,7 @@ protocol MIHAPIManagerDelegate {
 struct MIHCard {
 	var linkURL: URL?
 	var title: String = ""
+	var subtitle: String = ""
 	var imageURL: URL?
 	var imageWidth = 0
 }
@@ -18,6 +19,8 @@ class MIHAPIManager: NSObject {
 	static let shared = MIHAPIManager()
 	var delegate: MIHAPIManagerDelegate?
 	var cards = [MIHCard]()
+
+	let subtitles = ["因為你借過", "名人推薦", "曾經借過錢的人也借過", "推薦當舖", "個人化推薦", "白金會員優質專屬", "品牌推薦"]
 
 	fileprivate var currentTask: URLSessionDataTask?
 
@@ -52,6 +55,9 @@ class MIHAPIManager: NSObject {
 					card.title = title
 					card.imageURL = imageURL
 					card.imageWidth = imageWitdh ?? 0
+					let index = arc4random_uniform(UInt32(self.subtitles.count))
+					card.subtitle = self.subtitles[Int(index)]
+
 					newCards.append(card)
 				}
 			}
